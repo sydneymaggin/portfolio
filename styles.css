@@ -1,0 +1,233 @@
+@font-face {
+    font-family: eurostile-extended, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: kepler-std,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html{
+    background-color: #e8ffeb;
+}
+
+body{
+    color: #070c36;
+    margin-left: 7rem;
+
+}
+
+
+.info-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 25px;
+  }
+
+#title{
+    font-family: eurostile-extended, sans-serif;
+    font-size: 3rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+
+}
+
+
+.header{
+    display: flex;
+    font-family: eurostile-extended, sans-serif;
+    font-size: 2rem;
+    }
+
+#name {
+padding-right: 35rem;
+margin-left: 2rem;
+}
+#class{
+    padding-left: 17rem;
+}
+
+#process{
+
+    font-family: eurostile-extended, sans-serif;
+    font-size: 2rem;
+    margin-left: 2rem;
+    position: relative;
+    top: -35rem;
+
+}
+
+#description{
+    font-family: kepler-std,serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    position: relative;
+    left: 55rem;
+    top: -39rem;
+    width: 38rem;
+
+}
+
+#landing{
+    width: 50rem;
+    margin-left: 2rem;
+}
+
+#filters{
+    width: 38rem;
+    margin-left: 56rem;
+    position: relative;
+    top: -39.5rem;
+
+}
+
+#airtable{
+    width: 50rem;
+    margin-left: 2rem;
+    position: relative;
+    top: -35rem;
+    
+}
+
+#figma{
+    width: 32rem;
+    position: relative;
+    top: -35rem;
+    padding-left: 9rem;
+}
+
+#process-description{
+    font-family: kepler-std,serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    width: 91rem;
+    position: relative;
+    top: -35rem;
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:#070c36;
+}
+a:hover{
+    color:lime;
+}
+
+
+
+
+
+img{
+    width: 30rem;
+}
+
+.final{
+    position: relative;
+    display: grid;
+    margin: 3rem;
+}
+
+
+
+
+@media only screen and (max-width: 1600px) {
+    body{
+        margin-left: .5rem;
+    }
+  .header{
+      font-size: 1.5rem;
+  }
+  #title{
+      font-size: 2rem;
+  }
+  #airtable{
+      width: 45rem;
+  }
+  #figma{
+    width: 30rem;
+    padding-left: 3rem;
+}
+    
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    body{
+        margin-left: .1rem;
+    }
+  .header{
+      font-size: 2rem;
+  }
+  #title{
+      font-size: 2rem;
+  }
+  #airtable{
+      width: 30rem;
+  }
+  #figma{
+    width: 35rem;
+    padding: 10rem;
+
+}
+    
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    body{
+        margin-left: .1rem;
+    }
+  .header{
+      font-size: 3rem;
+  }
+
+  #class{
+      padding-left: 0;
+      
+  }
+#filters{
+    left: -54rem;
+    top: -70rem;
+    width: 50rem;
+}
+
+
+
+  #title{
+      font-size: 2rem;
+  }
+
+  #description{
+      font-size: 3rem;
+      left: 1rem;
+      top: 42rem;
+      padding-bottom: 35rem;
+
+    
+
+  }
+  #airtable{
+      width: 50rem;
+  }
+  #figma{
+    width: 50rem;
+    left: -7rem;
+}
+#process-description{
+    font-size: 3rem;
+    left: 1rem;
+    width: 38rem;
+ 
+  }
+
+}
